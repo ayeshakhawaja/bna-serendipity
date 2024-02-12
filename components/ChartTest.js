@@ -83,6 +83,7 @@ export default function ChartTest({ width, height }) {
         {/* {Circles} */}
         {dummyData.map((d, i) => (
           <motion.circle
+            key={i}
             // initial={{ scale: 0, opacity: 0 }}
             // animate={{ scale: 1, opacity: 1 }}
             // transition={{ type: "spring", duration: 0.7, delay: 0.2 * i }}
