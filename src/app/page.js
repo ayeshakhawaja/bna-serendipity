@@ -1,13 +1,10 @@
-"use client";
 import ChartTest from "../../components/ChartTest";
 import useMeasure from "react-use-measure";
 import Link from "next/link";
 
-export default function Home() {
-  // This hook allows us to dynamically measure our components
-  // Thus, d3 can redraw itself based on the current dimensions
-  let [ref, bounds] = useMeasure();
+// TODO: Different Fonts.
 
+export default function Home() {
   return (
     <main className={`flex min-h-screen flex-col items-center gap-4`}>
       <div className="flex-col p-24 h-min border-2">
